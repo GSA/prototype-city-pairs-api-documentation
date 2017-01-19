@@ -1134,9 +1134,14 @@ del {
 
 .open .expandable-button:before {
   content: "\f056";
+}
 
 /* custom class as .hidden is already used in the guide */
 .expandable-hidden {
   display: none;
 }
 
+/* fix swagger ul */
+#swagger-ui-container ul {
+    margin-left: 0;
+}

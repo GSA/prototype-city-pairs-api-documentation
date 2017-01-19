@@ -1,7 +1,7 @@
 Prototype City Pairs API Documentation 
 ====================
 
-This repository docuemnts the Prototype City Pairs API. This is a project of the GSA Digital Service.
+This repository documents the Prototype City Pairs API. This is a project of the GSA Digital Service.
 
 It is cloned from GSA's [API Documentation Template](https://github.com/GSA/api-documentation-template).
 

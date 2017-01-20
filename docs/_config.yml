@@ -1,6 +1,6 @@
-name: GSA API Docs
+name: Prototype City Pairs API Documentation
 markdown: kramdown
 highlighter: rouge
 safe: true
-baseurl: /api/
+baseurl: ""
 exclude: ['.ruby-version', 'node_modules', 'package.json', 'bower.json']

@@ -6,25 +6,21 @@ nav: basics
 
 ### Getting Started
 
-The current version of the API lives at ```https://api.gsa.gov/v3/path```.
+The current version of the API is version 0, which is a prototype.
 
-- One example of a way to use it.
-- Another example of a way to use it.
+It is a GET API that returns an array of Airfares based on the query parameters sent.
 
 #### Versions
 
 | Version | Date | Changes
 | ------------- | -------------|
-| ```version 1``` | 1/1/2095 | Initial deployment
-| ```version 2``` | 3/1/2096 | Changed data structure to fit congressional mandate
-| ```version 3``` | 3/1/2099 | Request pattern changed for new requirements
+| ```version 0``` | 1/10/2017 | Initial deployment of prototype
 
 ##### Endpoints
 High level description of the primary endpoint.
 
 | Endpoint | What it does |
 | ------------- | -------------|
-| ```/data/{dataset-name}``` | Gives all information about a dataset 
-| [```/data/hmda```](https://api.consumerfinance.gov/data/hmda) | Provides Home Mortgage Disclosure Act (HMDA) datasets starting from 2007
+| ```/citypairs/airfares``` | Returns an array of Airfares based on query parameters
 
 <body id="basics"></body>

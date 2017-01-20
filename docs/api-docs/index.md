@@ -5,7 +5,7 @@ layout: default
 ---
 ### Overview 
 
-The prototype City Pairs API is a demonstration project built to demonstrate the [draft GSA API Standards](https://github.com/GSA/api-standards/tree/converting-gsa-standards)and the [https://github.com/GSA/api-documentation-template](https://github.com/GSA/api-documentation-template). 
+The prototype City Pairs API is a demonstration project built to demonstrate the [draft GSA API Standards](https://github.com/GSA/api-standards/tree/converting-gsa-standards) and the [https://github.com/GSA/api-documentation-template](https://github.com/GSA/api-documentation-template). 
 
 It contains the data from the open [GSA City Pairs data set](https://catalog.data.gov/dataset/city-pair-program-api) on data.gov.
 
@@ -21,5 +21,10 @@ The pages below provide additional information about this API.
 - [Frequently Asked Questions (FAQ)](FAQ.html) Here are answers to some frequently asked questions.
 - [Contact Us](contact_us.html) If you need support or need to get in touch, this is the place to look.
 
+##### Viewing the API's source code
+We would be happy for you to view the source code of the API and its documentation. (After all, that's why we built it.)
+
+- [API Source Code](https://github.com/GSA/prototype-city-pairs-api)
+- [API Documentation Source](https://github.com/GSA/prototype-city-pairs-api-documentation)
 
 <body id="overview"></body>

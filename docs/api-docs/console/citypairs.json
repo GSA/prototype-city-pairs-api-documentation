@@ -72,7 +72,7 @@
             "type": "object",
             "properties": {
                 "ID": {
-                    "type": "string",
+                    "type": "integer",
                     "description": "Unique identifier."
                 },
                 "ITEM_NUM": {
@@ -128,15 +128,15 @@
                     "description": "PAX Count."
                 },
                 "YCA_FARE": {
-                    "type": "string",
+                    "type": "integer",
                     "description": "YCA Fare."
                 },
                 "XCA_FARE": {
-                    "type": "string",
+                    "type": "integer",
                     "description": "XCA Fare."
                 },
                 "BUSINESS_FARE": {
-                    "type": "string",
+                    "type": "integer",
                     "description": "Business Fare."
                 },
                 "ORIGIN_AIRPORT_LOCATION": {
@@ -153,10 +153,17 @@
                 },
                 "DESTINATION_CITY_STATE_AIRPORT": {
                     "type": "string",
+                    "format": "date-time",
                     "description": "Destination City State Airport."
                 },
+                "EFFECTIVE_DATE": {
+                    "type": "string",
+                    "format": "date-time",
+                    "description": "Expiration Date."
+                },                
                 "EXPIRATION_DATE": {
                     "type": "string",
+                    "format": "date-time",
                     "description": "Expiration Date."
                 }
             }
@@ -164,14 +171,13 @@
         "Error": {
             "type": "object",
             "properties": {
-                "code": {
-                    "type": "integer",
-                    "format": "int32"
-                },
                 "message": {
                     "type": "string"
                 },
-                "fields": {
+                "required_fields": {
+                    "type": "string"
+                },
+                "example": {
                     "type": "string"
                 }
             }

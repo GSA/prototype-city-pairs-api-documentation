@@ -9,12 +9,12 @@
     "schemes": [
         "https"
     ],
-    "basePath": "/v0",
+    "basePath": "/travel/citypairs/v0",
     "produces": [
         "application/json"
     ],
     "paths": {
-        "/citypairs/airfares": {
+        "/airfares": {
             "get": {
                 "summary": "Negotiated airfares",
                 "description": "The Airfares endpoint returns negotiated airfaires.\n",

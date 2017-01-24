@@ -22,24 +22,24 @@
                     {
                         "name": "award_year",
                         "in": "query",
-                        "description": "Year of airfare award.",
-                        "required": false,
+                        "description": "Year of airfare award. Example: '2017'",
+                        "required": true,
                         "type": "string",
                         "format": "string"
                     },
                     {
                         "name": "origin_airport_abbrev",
                         "in": "query",
-                        "description": "Origin airport abbreviation.",
-                        "required": false,
+                        "description": "Origin airport abbreviation. Example: 'ABQ'",
+                        "required": true,
                         "type": "string",
                         "format": "string"
                     },
                     {
                         "name": "destination_airport_abbrev",
                         "in": "query",
-                        "description": "Destination airport abbreviation.",
-                        "required": false,
+                        "description": "Destination airport abbreviation. Example: 'BWI'",
+                        "required": true,
                         "type": "string",
                         "format": "string"
                     }

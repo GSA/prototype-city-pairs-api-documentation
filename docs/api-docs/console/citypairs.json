@@ -17,7 +17,7 @@
         "/airfares": {
             "get": {
                 "summary": "Negotiated airfares",
-                "description": "The Airfares endpoint returns negotiated airfaires.\n",
+                "description": "This endpoint returns negotiated airfaires.\n",
                 "parameters": [
                     {
                         "name": "award_year",
@@ -30,16 +30,16 @@
                     {
                         "name": "origin_airport_abbrev",
                         "in": "query",
-                        "description": "Origin airport abbreviation. Example: 'ABQ'",
-                        "required": true,
+                        "description": "Origin airport abbreviation. Example: 'ABQ'. Must include either this or the destination airport abbreviation.",
+                        "required": false,
                         "type": "string",
                         "format": "string"
                     },
                     {
                         "name": "destination_airport_abbrev",
                         "in": "query",
-                        "description": "Destination airport abbreviation. Example: 'BWI'",
-                        "required": true,
+                        "description": "Destination airport abbreviation. Example: 'BWI'. Must include either this or the origination airport abbreviation.",
+                        "required": false,
                         "type": "string",
                         "format": "string"
                     }
@@ -69,7 +69,7 @@
         "/airfares/{id}": {
             "get": {
                 "summary": "Individual airfare by ID",
-                "description": "The Airfares endpoint returns one airfare by ID. (This is just for demonstration purpose. For City Pairs, the ID does not have meaning.)\n",
+                "description": "This endpoint returns one airfare by ID. (This is just for demonstration purpose. For City Pairs, the ID does not have meaning.)\n",
                 "parameters": [
                     {
                         "name": "id",

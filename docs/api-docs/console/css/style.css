@@ -174,7 +174,7 @@ pre, code {
     border-radius: 0.250em;
     overflow-x: auto;
     padding: 0.125em 0.250em;
-    white-space: nowrap;
+    /*white-space: nowrap; changed for swagger ui */
 }
 
 pre, code, kbd, samp {

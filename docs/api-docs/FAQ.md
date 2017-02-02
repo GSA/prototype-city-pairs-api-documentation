@@ -26,6 +26,16 @@ A: Glad you asked! You can find that documentation here: [https://github.com/GSA
 
 A: You can find the source code here: [https://github.com/GSA/prototype-city-pairs-api](https://github.com/GSA/prototype-city-pairs-api)
 
+**Q: Are these fares valid in either direction?**
 
+A: Yes. All fares are valid in either direction.
+
+**Q: Are these fares one-way or round-trip?**
+
+A: All fares are listed one-way.
+
+**Q: Are domestic and international fares queried the same way?**
+
+A: No. For domestic routes, please use the airport code. City codes (e.g., Washington(WAS)) are for use with international routes.
 
 <body id="FAQ"></body>

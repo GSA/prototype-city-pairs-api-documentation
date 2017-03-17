@@ -38,4 +38,8 @@ A: All fares are listed one-way.
 
 A: No. For domestic routes, please use the airport code. City codes (e.g., Washington(WAS)) are for use with international routes.
 
+**Q: Can you provide a sample API client or SDK for this API?**
+
+A: We are not providing these at this time. However, some tools can generate API clients based on the <a href="http://swagger.io/specification/">OpenAPI Specification 2.0</a> format in this file: <a href="console/citypairs.json">citypairs.json</a>. One example of tools is the online Swagger Editor: [http://editor.swagger.io](http://editor.swagger.io). **We do not provide any guarantees of functionality or security of these tools.**
+
 <body id="FAQ"></body>

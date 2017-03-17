@@ -18,6 +18,10 @@ A: That is not available because this is not for production usage.
 
 A: We are using the [draft GSA API Standards](https://github.com/GSA/api-standards/tree/converting-gsa-standards). This API is meant to demonstrate those.
 
+**Q: Which parts of the API Standards does this demonstrate?**
+
+A: It does not demonstrate all of them (yet). However, you can learn about the standards it does demonstrate here: [Implementation of API Standards](https://github.com/GSA/prototype-city-pairs-api/blob/master/standards.md).
+
 **Q: Where did you get that great API documentation?**
 
 A: Glad you asked! You can find that documentation here: [https://github.com/GSA/api-documentation-template](https://github.com/GSA/api-documentation-template)

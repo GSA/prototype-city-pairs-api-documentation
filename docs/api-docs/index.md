@@ -9,7 +9,7 @@ The prototype City Pairs API is a demonstration project built to demonstrate the
 
 It contains the data from the open [GSA City Pairs data set](https://catalog.data.gov/dataset/city-pair-program-api) on data.gov.
 
-It is not a production API, and it is not intended for use by the public.
+**It is not a production API, and it is not intended for use by the public.**
 
 
 ##### Using the API

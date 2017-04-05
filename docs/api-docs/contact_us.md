@@ -11,6 +11,6 @@ To receive support, post an issue in our [github issues](https://github.com/GSA/
 Be sure to check out our [Frequently Asked Questions page](FAQ.html), which may answer your questions.
 
 ### Alternate Contact
-If you are unable to post an an issue in GitHub, email us at [ryan.day@gsa.gov](mailto:ryan.day@gsa.gov).
+If you are unable to post an an issue in GitHub, email us at [joseph.castle@gsa.gov](mailto:joseph.castle).
 
 <body id="getting_support"></body>

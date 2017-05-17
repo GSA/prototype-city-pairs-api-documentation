@@ -5,7 +5,7 @@
         "description": "Prototype project to demonstrate GSA API Standards and API Documentation Template.",
         "version": "0.0.0"
     },
-    "host": "cityPairsPrototypeAPI.app.cloud.gov",
+    "host": "api.gsa.gov",
     "schemes": [
         "https"
     ],
@@ -42,6 +42,16 @@
                         "required": false,
                         "type": "string",
                         "format": "string"
+                    },
+                    {
+                        "name": "api_key",
+                        "in": "query",
+                        "description": "API key for api.data.gov platform.",
+                        "required": true,
+                        "type": "string",
+                        "format": "string",
+                        "default": "DEMO_KEY"
+
                     }
                 ],
                 "tags": [
@@ -78,7 +88,18 @@
                         "required": true,
                         "type": "integer",
                         "format": "int32"
+                    },
+                    {
+                        "name": "api_key",
+                        "in": "query",
+                        "description": "API key for api.data.gov platform.",
+                        "required": true,
+                        "type": "string",
+                        "format": "string",
+                        "default": "DEMO_KEY"
+
                     }
+                    
                 ],
                 "tags": [
                     ""

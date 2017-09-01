@@ -15,8 +15,8 @@ It is a GET API with two endpoints. Both return an array of Airfares based on th
 
 | Endpoint | What it does |
 | ------------- | -------------|
-| ```/citypairs/airfares``` | Returns an array of Airfares based on query parameters
-| ```/citypairs/airfares/{id}``` | Returns an array of Airfares based on unique identifier. Array will contain one airfare. (This is just for demonstration purpose. For City Pairs, the ID does not have meaning.)
+| ```https://api.gsa.gov/travel/citypairs/airfares``` | Returns an array of Airfares based on query parameters
+| ```https://api.gsa.gov/travel/citypairs/airfares/{id}``` | Returns an array of Airfares based on unique identifier. Array will contain one airfare. (This is just for demonstration purpose. For City Pairs, the ID does not have meaning.)
 
 #### Versions
 
@@ -27,7 +27,6 @@ It is a GET API with two endpoints. Both return an array of Airfares based on th
 
 
 ##### Usage Notes
-
  *  All fares are listed one-way and valid in either direction. Domestic fares include all existing Federal, State, and local taxes, as well as airport maintenance fees and other administrative fees. Domestic fares do not include fees such as passenger facility charges, segment fees, and passenger security service fees. For FY10 and beyond, international fares are exclusive of taxes and fees, but inclusive of fuel surcharge fees.
  *  Fuel surcharge fees may be different in a particular market depending on the origin and destination city.
  *  For domestic routes, please use the airport code. City codes (e.g., Washington(WAS)) are for use with international routes.
